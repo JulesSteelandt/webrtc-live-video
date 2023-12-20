@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Viewing</title>
+    <script src="https://muazkhan.com:9001/dist/RTCMultiConnection.min.js"></script>
+    <script src="https://muazkhan.com:9001/socket.io/socket.io.js"></script>
+</head>
+<body>
+
+<label>
+    ID
+    <input id="input-id" type="text">
+    <button type="submit" id="envoyer-id">envoyer</button>
+</label>
+<div id="videos-container"></div>
+
+
+<script src="js/viewer.js"></script>
+</body>
+</html>
+
+<style>
+    video{
+        width: 33%;
+    }
+</style>
